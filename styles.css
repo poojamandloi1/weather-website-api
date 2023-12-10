@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #111;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin: 0 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.hero {
+
+    background: url('stranger-things.jpg') center/cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0a0202;
+    text-align: center;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  /* Make the image responsive */
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #121414;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+  }
+/* .hero-content {
+    max-width: 600px;
+}*/
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #130304;
+    color: #f1e9e9;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.featured {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.movie-card {
+    margin: 10px;
+    text-align: center;
+}
+
+.movie-card img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.movie-card h2 {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #111;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
